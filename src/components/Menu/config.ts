@@ -4,7 +4,7 @@ const config: MenuEntry[] = [
   {
     label: 'Home',
     icon: 'HomeIcon',
-    href: 'https://app.ķesef.finance/'
+    href: 'https://app.kesef.finance/'
   },
   {
     label: 'Trade',
@@ -24,12 +24,12 @@ const config: MenuEntry[] = [
   {
     label: 'Farms',
     icon: 'FarmIcon',
-    href: 'https://app.ķesef.finance/farms'
+    href: 'https://app.kesef.finance/farms'
   },
   {
     label: 'Mining',
     icon: 'PoolIcon',
-    href: 'https://app.ķesef.finance/nests'
+    href: 'https://app.kesef.finance/nests'
   },
   {
     label: 'Info',
