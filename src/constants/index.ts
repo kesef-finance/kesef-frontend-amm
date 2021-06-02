@@ -58,7 +58,11 @@ export const PINNED_PAIRS: { readonly [chainId in ChainId]?: [Token, Token][] } 
       new Token(ChainId.MAINNET, '0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c', 18, 'WBNB', 'Wrapped BNB')
     ],
     [BUSD, USDT],
-    [DAI, USDT]
+    [DAI, USDT],
+    [
+     new Token(ChainId.MAINNET, '0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82', 18, 'CAKE', 'PancakeSwap Token'),
+     new Token(ChainId.MAINNET, '0xf056c78AE863b08808c1FE3c0f8a7dB2a4FDcf28', 18, 'KSF', 'Kesef Finance')
+    ]
   ]
 }
 
