@@ -29,7 +29,12 @@ const config: MenuEntry[] = [
   {
     label: 'Mining',
     icon: 'PoolIcon',
-    href: 'https://app.kesef.finance/nests'
+    href: 'https://app.kesef.finance/mining'
+  },
+  {
+    label: 'Certik Audit ⌛',
+    icon: 'TicketIcon',
+    href: 'https://www.certik.org/projects/keseffinance',
   },
  {
     label: 'Info',
