@@ -17,6 +17,10 @@ export const USDT = new Token(ChainId.MAINNET, '0x55d398326f99059ff7754852469990
 export const EOS = new Token(ChainId.MAINNET, '0x56b6fb708fc5732dec1afc8d8556423a2edccbd6', 18, 'EOS', 'EOS Token')
 export const DOT = new Token(ChainId.MAINNET, '0x7083609fce4d1d8dc0c979aab8c869ea2c873402', 18, 'DOT', 'Polkadot Token')
 export const ETH = new Token(ChainId.MAINNET, '0x2170ed0880ac9a755fd29b2688956bd959f933f8', 18, 'ETH', 'Ethereum Token')
+export const CAKE = new Token(ChainId.MAINNET, '0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82', 18, 'CAKE', 'PancakeSwap Token');
+export const KSF = new Token(ChainId.MAINNET, '0xf056c78AE863b08808c1FE3c0f8a7dB2a4FDcf28', 18, 'KSF', 'Kesef Finance');
+export const ADA = new Token(ChainId.MAINNET, '0x3ee2200efb3400fabb9aacf31297cbdd1d435d47', 18, 'ADA', 'Cardano');
+
 
 const WETH_ONLY: ChainTokenList = {
   [ChainId.MAINNET]: [WETH[ChainId.MAINNET]],
@@ -59,10 +63,8 @@ export const PINNED_PAIRS: { readonly [chainId in ChainId]?: [Token, Token][] } 
     ],
     [BUSD, USDT],
     [DAI, USDT],
-    [
-     new Token(ChainId.MAINNET, '0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82', 18, 'CAKE', 'PancakeSwap Token'),
-     new Token(ChainId.MAINNET, '0xf056c78AE863b08808c1FE3c0f8a7dB2a4FDcf28', 18, 'KSF', 'Kesef Finance')
-    ]
+    [KSF, ADA],
+    [KSF, CAKE]
   ]
 }
 
